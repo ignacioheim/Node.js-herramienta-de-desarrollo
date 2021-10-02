@@ -1,0 +1,34 @@
+
+let products: string[]|number[]  = [];
+
+let len = products.length;
+
+class Product {
+
+    title: string;
+    price: number;
+    thumbnail: string;
+
+    constructor(title, price, thumbnail) {
+        this.title = title,
+        this.price = price,
+        this.thumbnail = thumbnail
+    }
+
+    addProducts = () => {
+        products.push({
+            title: this.title,
+            price: this.price,
+            thumbnail: this.thumbnail
+        })
+    }
+
+    addId = () => {
+        products.forEach((data, len)=>{
+        data.id = len + 1;
+        })  
+    }
+}
+
+//export default {products, len, Product}
+module.exports = {products, len, Product}

@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.imgTable {
+    width: 40px;
+    height: 40px;
+}
+
+#send {
+    background-color: coral;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#mensajes {
+    background-color: lightblue;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+}
+
+#form {
+    margin-left: 80px;
+    margin-right: 80px; 
+}
+
+#time {
+    margin: 10px;
+    
+}
